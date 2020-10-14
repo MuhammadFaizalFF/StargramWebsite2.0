@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95.086" height="95.151" viewBox="0 0 95.086 95.151">
+  <defs>
+    <filter id="Path_455" x="12.015" y="11.61" width="83.07" height="83.541" filterUnits="userSpaceOnUse">
+      <feOffset dx="-4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_457" x="0" y="0" width="83.07" height="83.541" filterUnits="userSpaceOnUse">
+      <feOffset dx="-4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur-2"/>
+      <feFlood flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Stargram_nav_Logo" data-name="Stargram nav Logo" transform="translate(-55 -50.03)">
+    <path id="Path_453" data-name="Path 453" d="M96,269.571h15.83a7.188,7.188,0,0,0,7.188-7.188v-4.131a.222.222,0,0,0-.222-.222H116.26a.222.222,0,0,0-.222.222v3.691a4.648,4.648,0,0,1-4.648,4.648l-12.473.135Z" transform="translate(-0.933 -160.39)" fill="#fcdd03"/>
+    <path id="Path_454" data-name="Path 454" d="M221.972,206.881l6.093-3.518a.453.453,0,0,0,0-.784l-6.093-3.518a.453.453,0,0,0-.679.392v7.036A.453.453,0,0,0,221.972,206.881Z" transform="translate(-117.768 -105.344)" fill="#ffe600"/>
+    <g transform="matrix(1, 0, 0, 1, 55, 50.03)" filter="url(#Path_455)">
+      <path id="Path_455-2" data-name="Path 455" d="M276.882,269.571a7.188,7.188,0,0,0,7.188-7.188v-4.131a.222.222,0,0,0-.222-.222h-2.536a.222.222,0,0,0-.222.222v3.691c0,6.076-5.523,7.628-8.09,7.628Z" transform="translate(-220.98 -210.42)" fill="#ffe600"/>
+    </g>
+    <path id="Path_456" data-name="Path 456" d="M118.018,86.03h-15.83A7.188,7.188,0,0,0,95,93.218v4.131a.222.222,0,0,0,.222.222h2.536a.222.222,0,0,0,.222-.222V93.658a4.648,4.648,0,0,1,4.648-4.648l12.473-.135Z" fill="#fcdd03"/>
+    <g transform="matrix(1, 0, 0, 1, 55, 50.03)" filter="url(#Path_457)">
+      <path id="Path_457-2" data-name="Path 457" d="M102.188,86.03A7.188,7.188,0,0,0,95,93.218v4.131a.222.222,0,0,0,.222.222h2.536a.222.222,0,0,0,.222-.222V93.658c0-6.076,5.523-7.628,8.09-7.628Z" transform="translate(-55 -50.03)" fill="#ffe600"/>
+    </g>
+  </g>
+</svg>
