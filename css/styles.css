@@ -298,6 +298,8 @@ html {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    /* filter: blur(8px);
+    -webkit-filter: blur(4px); */
 }
 .bottom{
     margin-top: 80px;
@@ -312,7 +314,7 @@ html {
 }
 .bottom-left-of-image{
     position: absolute;
-    bottom: 1px;
+    bottom: 0px;
     left:auto;
     font-family: 'Sen';
     line-height: 20px;

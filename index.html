@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/orkney" type="text/css"/>
     <link rel="stylesheet" media="screen" href="./fonts/AGaramondPro-Regular.woff" type="text/css"/>
     <link rel="stylesheet" media="screen" href="./fonts/Gilroy-Medium.ttf" type="text/css"/>
@@ -100,36 +100,36 @@
             <div class="container">
             <div class="row top-img">
                 <div class="col-6 col-md image-1">
-                    <div ><img class="img-style" src="./images/a.jpg" alt=""><div class="bottom-left-of-image">Shabeer<br>Payyoli</div></div>
+                    <div ><img class="img-style" src="./images/Group 201.png" alt=""><div class="bottom-left-of-image"></div></div>
                 </div>
                 <div class="col-6 col-md image-2">
-                    <div ><img class="img-style"src="./images/a.jpg" alt=""><div class="bottom-left-of-image">Shabeer<br>Payyoli</div></div>
+                    <div ><img class="img-style"src="./images/Group 202.png" alt=""><div class="bottom-left-of-image"></div></div>
                 </div>
                 <div class="col-6 col-md image-3">
-                    <div ><img class="img-style"src="./images/a.jpg" alt=""><div class="bottom-left-of-image">Shabeer<br>Payyoli</div></div>
+                    <div ><img class="img-style"src="./images/Group 203.png" alt=""><div class="bottom-left-of-image"></div></div>
                 </div>
                 <div class="col-6 col-md image-4">
-                    <div ><img class="img-style"src="./images/a.jpg" alt=""><div class="bottom-left-of-image">Shabeer<br>Payyoli</div></div>
+                    <div ><img class="img-style"src="./images/Group 204.png" alt=""><div class="bottom-left-of-image"></div></div>
                 </div>
                 <div class="col-md  image-5">
-                    <div ><img class="img-style"src="./images/a.jpg" alt=""><div class="bottom-left-of-image">shabeer<br>Payyoli</div></div>
+                    <div ><img class="img-style"src="./images/Group 205.png" alt=""><div class="bottom-left-of-image"></div></div>
                 </div>
             </div>
             <div class="row bottom-img">
                 <div class="col-6 col-md image-6">
-                    <div ><img class="img-style" src="./images/a.jpg" alt=""><div class="bottom-left-of-image">shabeer<br>Payyoli</div></div>
+                    <div ><img class="img-style" src="./images/Group 206.png" alt=""><div class="bottom-left-of-image"></div></div>
                 </div>
                 <div class="col-6 col-md   image-7">
-                    <div ><img class="img-style"src="./images/a.jpg" alt=""><div class="bottom-left-of-image">shabeer<br>Payyoli</div></div>
+                    <div ><img class="img-style"src="./images/Group 207.png" alt=""><div class="bottom-left-of-image"></div></div>
                 </div>
                 <div class="col-6 col-md  image-8">
-                    <div ><img class="img-style"src="./images/a.jpg" alt=""><div class="bottom-left-of-image">shabeer<br>Payyoli</div></div>
+                    <div ><img class="img-style"src="./images/Group 208.png" alt=""><div class="bottom-left-of-image"></div></div>
                 </div>
                 <div class="col-6 col-md  image-9">
-                    <div ><img class="img-style"src="./images/a.jpg" alt=""><div class="bottom-left-of-image">shabeer<br>Payyoli</div></div>
+                    <div ><img class="img-style"src="./images/Group 209.png" alt=""><div class="bottom-left-of-image"></div></div>
                 </div>
                 <div class=" col-6 col-md image-10">
-                    <div ><img class="img-style"src="./images/a.jpg" alt=""><div class="bottom-left-of-image">Shabeer<br>Payyoli</div><div class="see-all"><a class="see" href="./stars.html"><br><br><br>See<br>all</a></div></div>
+                    <div ><img class="img-style"src="./images/Group 210.png" alt=""><div class="bottom-left-of-image"></div><div class="see-all"><a class="see" href="./stars.html"><br><br><br>See<br>all</a></div></div>
                 </div>
             </div>
         </div>
@@ -147,7 +147,7 @@
                     
                         
                     </div>
-                        <form class="signUp-form" >
+                        <form class="signUp-form" id="submit-form"  action="" >
                             
                                 
                                 <input class="form-style"type="text" placeholder="Name" id="fname" name="fname"><br><br>
@@ -342,7 +342,25 @@
         </section>
 
      
-
+        <script>
+            $("#submit-form").submit((e)=>{
+                e.preventDefault()
+                $.ajax({
+                    url:"https://script.google.com/macros/s/AKfycbyAY2G88hzODcyPecOmXkojv-hikdlo3WEO1WkdZw/exec",
+                    data:$("#submit-form").serialize(),
+                    method:"post",
+                    success:function (response){
+                        alert("Form submitted successfully")
+                        window.location.reload()
+                        //window.location.href="https://google.com"
+                    },
+                    error:function (err){
+                        alert("Something Error")
+        
+                    }
+                })
+            })
+        </script>
 
 
 
