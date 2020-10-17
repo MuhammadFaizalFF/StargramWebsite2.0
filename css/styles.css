@@ -63,16 +63,19 @@
     
     
 }
+a:hover{
+    text-decoration: none;
+}
 .sign-button-2{
     
     background-color:#FFE600 ;
     border-radius: 12px;
     border: none;
-    margin-left: auto;
+    margin-left: 165px;
     height: 25px;
     width: 100px;
     margin-right: auto;
-    margin-top: 70px;
+    margin-top: 101px;
     font-weight: 600;
     display: block;
     padding-bottom: 27px;
@@ -102,16 +105,17 @@
     background-color: #090909;
 }
 .header-logo{
-    margin-left:auto ;
+    margin-left: auto;
     margin-right: auto;
     display: block;
     height: auto;
-    width: 70px; 
-    float: left; 
+    width: 60px;
+    float: left;
+    margin-top: 4px;
 
 }
 .header-stargram{
-    padding-top: 19px;
+    padding-top: 20px;
     font-family: 'Sen';
     font-size: 21px;
 }
@@ -126,7 +130,7 @@ html {
     text-align: center;
     padding-left: 21%;
     padding-right: 21%;
-    padding-top: 200px;
+    padding-top: 226px;
     font-family: 'OrkneyRegular';
    font-weight: normal;
    font-style: normal;
@@ -140,16 +144,22 @@ html {
     margin-right: 47%;
     
 }
+
 .search-get-section{
     
     margin-top: auto;
     
     
 }
+#search-section{
+    margin-top: -50px;
+}
 .card-img-top{
     background-color: #090909;
     border: none;
-    height: 240px;
+    height: 118px;
+    margin-top: 38px;
+    margin-left: 24px;
     
 
 
@@ -162,6 +172,23 @@ html {
     text-align: center;
     background-color: #090909;
     padding-top: 20px;
+    margin-left: 39px;
+    
+}
+.description-search{
+    font-family: 'AdobeGaramondProRegular'; 
+    text-align: center;
+    background-color: #090909;
+    padding-top: 20px;
+    margin-left: 109px;
+    
+}
+.description-reply{
+    font-family: 'AdobeGaramondProRegular'; 
+    text-align: center;
+    background-color: #090909;
+    padding-top: 20px;
+    margin-left: -54px;
     
 }
 .record-section{
@@ -175,27 +202,35 @@ html {
     margin:auto;
     width: 133px;
 }
+.reply{
+    margin-left: -65px;
+    height: 173px;
+
+}
 .star-on-stargram{
     font-family: monospace;
-    margin-left: 120px;
+    margin-left: 97px;
     margin-top: 220px;
     
 }
-.hrline{
+.hrline {
+    margin-top: -3px;
     border-top: 2px solid #FFE600;
-    width: 5%;
-    margin-left: 10%
+    width: 3%;
+    margin-left: 97px;
 }
 
 .signUp-section{
 
-    text-align: center;
+    text-align: left;
     padding-top: 100px;
     font-family: 'Sen';
+    margin-left: 146px;
 }
 .signUp-form{
     text-align: center;
     padding-top: 10px;
+    margin-left: 92px;
     
 }
 .form-style{
@@ -213,6 +248,7 @@ html {
     border-radius: 8px;
     background-color:#FFE600 ;
     border: none;
+    margin-left: -229px;
     font-weight: 600;
     height: 35px;
     width: 100px;
@@ -221,6 +257,14 @@ html {
 .faq{
     text-align: center;
     font-family: sans-serif;
+    margin-top: 14px;
+}
+.faq-align{
+    position: absolute;
+    margin-top: 60px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .chat-box{
     
@@ -232,16 +276,16 @@ html {
 }
 .download-ios{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 170px;
     font-family: 'sen';
 }
 .logo-bottom {
-    
+    margin-top: 77px;
     height: auto;
     width: 80px;  
 }
 .mobile-image{
-    margin-top:100px ;
+    margin-top:110px ;
     height: 450px;
     margin-left: auto;
     margin-right: auto;
@@ -256,11 +300,8 @@ html {
     margin-top: 20px;
 }
 .bottom{
-    margin-top: 100px;
-    
-}
-.connect{
-    text-align: center;
+    margin-top: 80px;
+    background-color: black;
     
 }
 .bottom-stargram{
@@ -273,6 +314,8 @@ html {
     position: absolute;
     bottom: 1px;
     left:auto;
+    font-family: 'Sen';
+    line-height: 20px;
     color: white;
     width: 100%;
     height: 115px;
@@ -281,12 +324,11 @@ html {
     padding-top: 54px;
     
 }
-.terms{
-    text-align: center;
-      
-}
+
 .search{
-    margin-top: 250px;
+    height: 183px;
+    margin-top: 308px;
+    margin-left: 87px;
 }
 .center-of-mobile{
     position: absolute;
@@ -294,7 +336,7 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    height: 350px;
+    height: 360px;
     width: 200px;
     overflow: auto;
  }
@@ -311,34 +353,91 @@ html {
     border-radius: 15px !important;
     background-color: rgba(0,0,0,0.4) !important;
 }
-.see-all{
+.submit-section{
+    margin-top: 20px;
+}
+.see-all {
     position: absolute;
-    top: 49%;
-    left: 80%;
-    transform: translate(-56%,-50%);
+    top: 54%;
+    left: 60%;
+    font-family: 'Sen';
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transform: translate(-50%,-50%);
     bottom: 1px;
-    color: white;
-    width: 80%;
-    height: 192px;
-    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #000);
+    color: #6A6A6A;
+    width: 51%;
+    height: 214px;
+    background: white;
+    opacity: 0.80;
     padding-left: 32px;
     padding-top: 0px;
-    
-
 }
-.google-size{
-    height: 58px;
-    width: auto;
+.see{
+    color: #6A6A6A;
+    font-size: 23px;
+    line-height: 25px;
+    
+}
+.see:hover{
+    text-decoration: none;
+    color: #6A6A6A;
+}
+.image-section{
+    margin-top: -92px;
+}
+.top-img{
+    margin-top: -17px;
+}
+.bottom-img{
+    margin-top: 0px;
+}
+.image-1{
+    margin-left: 4px;
+}
+.image-2{
+    margin-left: 0px;
+}
+.image-3{
+    margin-left: 0px;
+}
+.image-4{
+    margin-left: 0px;
+}
+.image-5{
+    margin-left: 0px;
+    margin-right: -12px;
+}
+.image-6{
+    margin-left: 4px;
+}
+.image-7{
+    margin-left: 0px;
+}
+.image-8{
+    margin-left: 0px;
+}
+.image-9{
+    margin-left: 0px;
+}
+.image-10{
+    margin-left: 0px;
+    margin-right: -12px;
+}
+.google-size {
+        height: 55px;
+        width: auto;
+        margin-top: 2px;
 }
 .msg_cotainer{
 margin-top: auto;
 margin-bottom: auto;
-margin-left: 25%;
+margin-left: 17%;
 border-radius: 9px;
 background-color:  #FFE600;
 color: black !important;
 padding: 13px;
-font-size: x-small;
+font-size: 12px;
 font-weight: 700;
 position: relative;
 font-family: 'Roboto';
@@ -347,7 +446,7 @@ font-family: 'Roboto';
 margin-top: auto;
 margin-bottom: auto;
 margin-right: 25%;
-font-size: x-small;
+font-size: 12px;
 border-radius: 10px;
 background-color: black;
 border: 1px solid #FFE600;
@@ -355,10 +454,25 @@ padding: 10px;
 position: relative;
 font-family: 'Roboto';
 }
+.what-is{
+    margin-left: 35px;
+}
+.what-is:after{
+    
+    left: 96px !important;
+}
+.connect{
+    margin-top: 80px;
+    padding-left: 140px;
+}
+.term{
+    margin-top: 80px;
+    padding-left: 140px;
+}
 .msg_cotainer:after{
 	content: ' ';
 	position: absolute;
-    left: 86px;
+    left: 102px;
 	top: 0px;
 	border: 19px solid;
     border-color:  #FFE600  transparent transparent;
@@ -381,28 +495,42 @@ font-size: 9px;
 }
 .apple-image{
     margin-left: 445px ;
-    margin-top: 10px ;
+    margin-top: 25px ;
 }
 .google-image{
     margin-left: 634px ;
     margin-top: -57px ;
 }
-@media only screen and (max-width: 600px) 
+.bottom-logo-meadia{
+    margin-bottom: 100px;
+    padding-left:80px ;
+}
+@media only screen and (max-width: 370px) 
 {
    
-    
+    #search-section{
+        margin-top: -50px;
+    }
     .icon-scroll{
         
         margin-top: 380px;
     }
     
     .cards{
+       
         border: none !important;
+    }
+    .hrline {
+        width: 9% !important;
+        margin-left: 25px !important;
+    }
+    .image-1{
+        margin-left: 0px !important;
     }
     
     .star-on-stargram{
         font-family: monospace;
-        margin-left: 50px;
+        margin-left: 25px;
         margin-top: 220px;
         
     }
@@ -410,52 +538,80 @@ font-size: 9px;
     
     .signUp-section{
         text-align: center;
-        padding-top: 100px;
+        padding-top: 118px;
         font-family: sans-serif;
         font-size: 12px;
+        margin-left: 0px;
 
     }
     .signUp-form{
         text-align: center;
         padding-top: 10px;
+        width: 364px;
+        margin-left: -21px;
+        
         
     }
-    .connect{
-        text-align: center;
-        margin-top: -65px;
+    .sign-up{
+        font-size: 27px;
     }
-    .terms{
-        text-align: center;
-        margin-top: -30px;
-          
+    .submit-button {
+        width: 270px;
+        margin-left: 0px;
+    }
+    
+    .ios-meadia{
+        font-size: 24px;
+    }
+    .ios-meadia::before{
+        content: "\a";
+        white-space: pre;
     }
     .download-ios-meadia{
+        margin-top: 55px;
        padding: 20px;
+       font-size:32px ;
     }
     .bottom-logo-meadia{
+        padding-left: 40px;
         width: 50%;
     }
-    .connect-terms-meadia{
-        margin-left: 50%;
-    }
     .hello{
-        margin-top:-11px ;
+        margin-top:-10px ;
     }
     .tagline-content{
         padding-left: 15%;
         padding-right: 15%;
     }
     .record-send-content{
-        margin-top: -100px;
+        margin-top: -30px;
+        margin-left: -10px;
     }
     .search-your-content{
-        height: 180px;
+        height: 150px;
+        margin-top: 120px;
+        margin-left: 25px;
     }
+    .reply{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .description-reply {
+        margin-left: 5px;
+    }
+    
+    .description-search {
+        margin-left: -10px;
+    }
+    .description {
+        margin-left: -5px;
+    }
+
     .image-section{
         margin-top: -100px;
     }
     .bottom-stargram{
-        margin-left: 42px;
+        margin-left: 38px;
         margin-top: -53px;
     }
     .logo-bottom {
@@ -470,24 +626,37 @@ font-size: 9px;
         margin-left: -119px;
     }
     .img-style{
-        height: 200px;
+        height: 165px;
+    }
+    .tagline-content{
+        font-size: 26px;
     }
     .bottom-left-of-image {
+        width: 97%;
         padding-left: 14px;
         padding-top: 54px;
+        
     }
-    .see-all{
+    .mouse{
+        margin-left: -10px !important;
+        margin-top: -79px !important;
+    }
+    .see-all{ 
         position: absolute;
-        top: 50%;
-        left: 91%;
-        transform: translate(-80%,-50%);
+        top: 56%;
+        left: 59%;
+        font-family: 'Sen';
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        transform: translate(-50%,-50%);
         bottom: 1px;
-        color: white;
-        width: 70%;
-        height: 300px;
-        background: linear-gradient(300deg, rgba(255, 255, 255, 0) 0%, #000);
-        padding-left:32px;
-        padding-top: 54px;
+        color: #6A6A6A;
+        width: 55%;
+        height: 165px;
+        background: white;
+        opacity: 0.80;
+        padding-left: 32px;
+        padding-top: 0px;
         
     
     }
@@ -512,18 +681,96 @@ font-size: 9px;
         height: 79%;
         margin-left: 25%;
     }
-    .hrline{
+    .hrline {
+        margin-top: -3px;
         border-top: 2px solid #FFE600;
-        width: 10%;
-        margin-left: 15%
+        width: 3%;
+        margin-left: 95px;
     }
+    .connect{
+        margin-top: 90px;
+        padding-left: 18px;
+    }
+    .term{
+        margin-top: -20px;
+        padding-left: 18px;
+    }
+    .hello{
+        padding-bottom: 0px;
+    }
+    .see{
+        line-height: 0px;
+    }
+    
 }
 @media only screen and (min-width: 768px) and (max-width:1023px)
 {
     .tagline-content{
-        padding-left: 24%;
-        padding-right: 24%;
+        padding-left: 26%;
+        padding-right: 26%;
     }
+    .header-stargram{
+        display: none !important;
+    }
+    .record-section{
+        margin-top: 155px;
+    }
+    .card-img-top{
+        height: 400px;
+    }
+    .search-your-content{
+        height: 250px;
+        
+        margin-left:20px;
+    }
+    .description-reply{
+        margin-bottom: 150px;
+        margin-left: 40px;
+        font-size: 25px;
+    }
+    .description-search{
+        margin-bottom: 150px;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    .description{
+        margin-top: -110px;
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+    .sign-button-2{
+        margin-top: 150px;
+        margin-bottom: 200px;
+    }
+    .reply{
+        height: 200px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .sign-button-2{
+        margin-left: 80px;
+    }
+    .icon-scroll {
+        margin-top: 610px;
+    }
+    .signUp-form{
+        text-align: center;
+        padding-top: 10px;
+        width: 362px;
+        margin-left: -21px;
+        
+        
+    }
+    .signUp-section{
+        margin-left: 20px;
+    }
+    .submit-button {
+        margin-left: -150px;
+    }
+    .mouse{
+        margin-left: -10px;
+    }
+  
     .image-5{
         display: none;
     }
@@ -557,7 +804,10 @@ font-size: 9px;
     .hrline{
         border-top: 2px solid #FFE600;
         width: 5%;
-        margin-left: 16%
+        margin-left: 60px ;
+    }
+    .star-on-stargram{
+        margin-left: 60px;
     }
 }
 @media only screen and (min-width: 1024px) and (max-width:1028px)
@@ -571,6 +821,12 @@ font-size: 9px;
     }
     .image-9{
         display: none;
+    }
+    .sign-button-2{
+        margin-left: 130px;
+    }
+    #submit-section{
+        margin-top: 100px;
     }
     .google-size{
         height: 50PX;
@@ -595,27 +851,214 @@ font-size: 9px;
         width: 5%;
         margin-left: 12%
     }
+    .signUp-form{
+        text-align: center;
+        padding-top: 10px;
+        width: 386px;
+        margin-left: 90px;
+        
+        
+    }
+    .signUp-section{
+        margin-left: 130px;
+    }
+    .submit-button {
+        margin-left: -150px;
+    }
+    .icon-scroll{
+        margin-top: 500px;
+    }
 }
-
+@media only screen and (max-width: 415px) and (min-width: 400px)
+{   
+    .ios-meadia{
+        font-size: 28px;
+    }
+    .ios-meadia::before{
+        content: "\a";
+        white-space: pre;
+    }
+    .see{
+        line-height: 0px;
+    }
+    .download-ios-meadia{
+        margin-top: 110px;
+       padding: 20px;
+       font-size:40px ;
+    }
+    .tagline-content{
+        font-size: 26px;
+    }
+    .mouse{
+        margin-left: -15px;
+    }
+    .img-style{
+        height: 165px;
+    }
+    .search{
+        margin-left: 35px;
+        margin-top: 195px;
+    }
+    .description-search{
+        margin-left: 10px;
+    }
+    .record-send-content{
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+    .description{
+        margin-left: 10px;
+    }
+    .reply{
+        margin-top: 70px;
+        margin-left: 10px;
+    }
+    .description-reply{
+        margin-left: 10px;
+    }
+    .star-on-stargram{
+        margin-left: 33px;
+    }
+    .hrline{
+        margin-left: 33px !important;
+        width: 8%;
+    }
+    .see-all{ 
+        position: absolute;
+        top: 56%;
+        left: 57%;
+        font-family: 'Sen';
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        transform: translate(-50%,-50%);
+        bottom: 1px;
+        color: #6A6A6A;
+        width: 50%;
+        height: 165px;
+        background: white;
+        opacity: 0.80;
+        padding-left: 32px;
+        padding-top: 0px;
+        
+    
+    }
+    .image-5{
+        display: none;
+    }
+    .image-7{
+        display: none;
+    }
+    .image-8{
+        display: none;
+    }
+    .image-9{
+        display: none;
+    }
+    .image-1{
+        margin-left: 0px;
+    }
+    .signUp-section{
+        margin-left: 10%;
+    }
+    .signUp-form{
+        margin-left: -3%;
+        width: 400px;
+    }
+    .submit-button{
+        margin-left: 0px;
+        width: 270px;
+    }
+    .bottom-left-of-image{
+        width: 98%;
+        margin-left: -10px;
+    }
+    .apple-image{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .google-image{
+        margin-top: 10px;
+        margin-left: -119px;
+    }
+    
+    .google-size{
+        height: 40px;
+        width: auto;
+        margin-left: 34%;
+    }
+    .apple-size{
+        height: 79%;
+        margin-left: 25%;
+    }
+    
+    .bottom-stargram{
+        margin-left: 12px;
+        margin-top: -53px;
+    }
+    .logo-bottom {
+        margin-left: -56px;
+    }
+    .connect{
+        margin-top: 90px;
+        padding-left: 18px;
+    }
+    .term{
+        margin-top: -20px;
+        padding-left: 18px;
+    }
+    .hello{
+        padding-bottom: 0px;
+    }
+    .icon-scroll{
+        margin-top: 400px;
+    }
+    
+}
 @media only screen and (max-width: 320px) 
 {
     .icon-scroll {
-        margin-top: 310px;
+        margin-top: 360px;
+    }
+    .signUp-form{
+        width: 326px;
+    }
+    .submit-button{
+        width: 230px;
+    }
+    
+    .image-6{
+        margin-left: -3px;
+    }
+    .image-10{
+        margin-left: 0px;
     }
     .google-size{
         height: 37PX;
         width: auto;
         margin-left: 34%;
     }
+    .see{
+        line-height: 0px;
+        
+    }
+    .img-style{
+        height: 150px;
+    }
+    .see-all{
+        width: 80px;
+        top: 56%;
+        left: 60%;
+        height: 150px;
+    }
     .apple-size{
         height: 66%;
         margin-left: 25%;
     }
     .bottom-stargram {
-        margin-left: 35px;
+        margin-left: 25px;
     }
     .logo-bottom {
-        margin-left: -29px;
+        margin-left: -42px;
     }
     .hrline{
         border-top: 2px solid #FFE600;
@@ -625,21 +1068,169 @@ font-size: 9px;
     .signUp-section{
         margin: -6px ;
     }
+    .connect{
+        margin-top: 90px;
+        padding-left: 20px;
+    }
+    .term{
+        margin-top: -20px;
+        padding-left: 20px;
+    }
+    .hello{
+        padding-bottom: 0px;
+    }
+    .tagline-content{
+        font-size: 26px;
+        margin-top: 0px;
+    }
 }
-@media only screen and (min-width: 375px) and (max-width:767px)
+@media only screen and (min-width: 375px)  and (max-width:378px)
 {
+    .apple-image{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .google-image{
+        margin-top: 10px;
+        margin-left: -119px;
+    }
+    
     .google-size{
-        height: 37PX;
+        height: 40px;
         width: auto;
-        margin-left: 38%;
+        margin-left: 34%;
     }
     .apple-size{
-        height: 66%;
-        margin-left: 42%;
+        height: 79%;
+        margin-left: 25%;
+    }
+    .download-ios-meadia{
+        margin-top: 110px;
+        padding: 20px;
+        font-size:40px ;
     }
     .hrline{
         border-top: 2px solid #FFE600;
         width: 10%;
         margin-left: 14%
+    }
+    .ios-meadia{
+        font-size: 28px;
+    }
+    .ios-meadia::before{
+        content: "\a";
+        white-space: pre;
+    }
+    .bottom-left-of-image{
+        width: 97%;
+    }
+    .see-all{ 
+        position: absolute;
+        top: 55%;
+        left: 60%;
+        font-family: 'Sen';
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        transform: translate(-50%,-50%);
+        bottom: 1px;
+        color: #6A6A6A;
+        width: 50%;
+        height: 163px;
+        background: white;
+        opacity: 0.80;
+        padding-left: 32px;
+        padding-top: 0px;
+        
+    
+    }
+    .see{
+        line-height: 0px;
+    }
+    .tagline-content{
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: 26px;
+    }
+    .mouse{
+        margin-left: -15px;
+    }
+    .record-send-content{
+        margin-top: -30px;
+        margin-left: -10px;
+    }
+    .search-your-content{
+        height: 180px;
+        margin-top: 190px;
+        margin-left: 25px;
+    }
+    .reply{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .description-reply {
+        margin-left: 5px;
+    }
+    
+    .description-search {
+        margin-left: -10px;
+    }
+    .description {
+        margin-left: -5px;
+    }
+    .image-5{
+        display: none;
+    }
+    .image-7{
+        display: none;
+    }
+    .image-8{
+        display: none;
+    }
+    .image-9{
+        display: none;
+    }
+    .image-1{
+        margin-left: 0px;
+    }
+    .star-on-stargram{
+        margin-left: 30px;
+    }
+    .hrline{
+        margin-left: 30px !important;
+    }
+    .signUp-section{
+        margin-left: 8%;
+    }
+    .signUp-form{
+        margin-left: -5%;
+        width: 377px;
+    }
+    .submit-button{
+        margin-left: 0px;
+        width: 270px;
+    }
+    .bottom-stargram{
+        margin-left: 8px;
+        margin-top: -53px;
+    }
+    .logo-bottom {
+        margin-left: -56px;
+    }
+    .connect{
+        margin-top: 90px;
+        padding-left: 18px;
+    }
+    .term{
+        margin-top: -20px;
+        padding-left: 18px;
+    }
+    .hello{
+        padding-bottom: 0px;
+    }
+    .icon-scroll{
+        margin-top: 370px;
+    }
+    .img-style{
+        height: 165px;
     }
 }
