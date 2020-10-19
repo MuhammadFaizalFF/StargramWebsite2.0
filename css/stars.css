@@ -17,90 +17,19 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i);
 
 
-
-
-@-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-ms-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-o-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-
-
-
-.header-sign{
-    background-color:#FFE600 ;
-    border-radius: 12px;
-    border: none;
-    margin-left: auto;
-    float: right;
-    height: 25px;
-    width: 100px;
-    margin-right: auto;
-    margin-top: 21px;
-    font-weight: 600;
-    padding-bottom: 27px;
-    
-    
-    
-}
-.sign-button-2{
-    
-    background-color:#FFE600 ;
-    border-radius: 12px;
-    border: none;
-    margin-left: auto;
-    height: 25px;
-    width: 100px;
-    margin-right: auto;
-    margin-top: 70px;
-    font-weight: 600;
-    display: block;
-    padding-bottom: 27px;
-    
-    
-    
-}
-
-.header-top-content{
-    height: 70px;
-    position: fixed;
-     width: 100%;
-      z-index: 1;
-      margin-top: -70px;
-      background-color: black;
-    
-}
 .row{
     
     margin-right: 0px !important;
     
 }
-.header{
-    position: fixed;
-    width: 100%;
+.header-top-content{
+    margin-top: -70px;
     height: 70px;
-    z-index: 1;
-    background-color: #090909;
+    position: fixed;
+     width: 100%;
+      z-index: 1;
+      background-color: black;
+    
 }
 .header-logo{
     margin-left:auto ;
@@ -119,21 +48,7 @@
 html {
     scroll-behavior: smooth;
   }
-.tagline-content{
-    background-color: #090909;
-    width: 100%;
-    font-size: 40px ;
-    max-height: 200px;
-    text-align: center;
-    padding-left: 21%;
-    padding-right: 21%;
-    padding-top: 200px;
-    font-family: 'OrkneyRegular';
-   font-weight: normal;
-   font-style: normal;
 
-    
-}
 .icon-scroll{
     margin-left: 49%;
     margin-top: 260px;
@@ -141,41 +56,7 @@ html {
     margin-right: 47%;
     
 }
-.search-get-section{
-    
-    margin-top: auto;
-    
-    
-}
-.card-img-top{
-    background-color: #090909;
-    border: none;
-    height: 240px;
-    
 
-
-} 
-.cards{
-    border: none !important;
-}
-.description{
-    font-family: 'AdobeGaramondProRegular'; 
-    text-align: center;
-    background-color: #090909;
-    padding-top: 20px;
-    
-}
-.record-section{
-    
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.search-your-section{
-    margin:auto;
-    width: 133px;
-}
 .star-on-stargram{
     font-family: monospace;
     margin-left: 120px;
@@ -188,44 +69,7 @@ html {
     margin-left: 10%
 }
 
-.signUp-section{
 
-    text-align: center;
-    padding-top: 100px;
-    font-family: 'Sen';
-}
-.signUp-form{
-    text-align: center;
-    padding-top: 10px;
-    
-}
-.form-style{
-    width: 75%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 2px solid #FFE600;
-  background-color: #090909;
-  color: white;
-
-}
-.submit-button{
-    border-radius: 8px;
-    background-color:#FFE600 ;
-    border: none;
-    font-weight: 600;
-    height: 35px;
-    width: 100px;
-    
-}
-.faq{
-    text-align: center;
-    font-family: sans-serif;
-}
-.chat-box{
-    
-}
 .apps{
     margin-left: auto;
     margin-right: auto;
@@ -241,13 +85,7 @@ html {
     height: auto;
     width: 80px;  
 }
-.mobile-image{
-    margin-top:100px ;
-    height: 450px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
+
 .img-style{
     border-radius: 15px;
     height: 215px;
@@ -260,10 +98,7 @@ html {
     margin-top: 100px;
     
 }
-.connect{
-    text-align: center;
-    
-}
+
 .bottom-stargram{
     font-family: cursive; 
     margin-left: 80px;
@@ -272,7 +107,7 @@ html {
 }
 .bottom-left-of-image{
     position: absolute;
-    bottom: 1px;
+    bottom: 0px;
     left:auto;
     color: white;
     width: 100%;
@@ -282,79 +117,9 @@ html {
     padding-top: 54px;
     
 }
-.terms{
-    text-align: center;
-      
-}
-.search{
-    margin-top: 250px;
-}
-.center-of-mobile{
-    position: absolute;
-    margin-top: 60px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 350px;
-    width: 200px;
-    overflow: auto;
- }
- .center-of-mobile::-webkit-scrollbar {
-    display: none;
-}
-.center-of-mobile {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-  
-.msg-card{
-    height: 500px;
-    border-radius: 15px !important;
-    background-color: rgba(0,0,0,0.4) !important;
-}
-.see-all{
-    position: absolute;
-    top: 49%;
-    left: 80%;
-    transform: translate(-56%,-50%);
-    bottom: 1px;
-    color: white;
-    width: 80%;
-    height: 192px;
-    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #000);
-    padding-left: 32px;
-    padding-top: 0px;
-    
-
-}
 .google-size{
     height: 58px;
     width: auto;
-}
-.msg_cotainer{
-margin-top: auto;
-margin-bottom: auto;
-margin-left: 25%;
-border-radius: 9px;
-background-color:  #FFE600;
-color: black !important;
-padding: 13px;
-font-size: x-small;
-font-weight: 700;
-position: relative;
-font-family: 'Roboto';
-}
-.msg_cotainer_send{
-margin-top: auto;
-margin-bottom: auto;
-margin-right: 25%;
-font-size: x-small;
-border-radius: 10px;
-background-color: black;
-border: 1px solid #FFE600;
-padding: 10px;
-position: relative;
-font-family: 'Roboto';
 }
 .msg_cotainer:after{
 	content: ' ';
@@ -364,21 +129,6 @@ font-family: 'Roboto';
 	border: 19px solid;
     border-color:  #FFE600  transparent transparent;
     
-}
-.msg_time{
-position: absolute;
-left: 0;
-bottom: -15px;
-color: rgba(255,255,255,0.5);
-font-size: 9px;
-font-family: sans-serif;
-}
-.msg_time_send{
-position: absolute;
-right:0;
-bottom: -15px;
-color: rgba(255,255,255,0.5);
-font-size: 9px;
 }
 .apple-image{
     margin-left: 445px ;
@@ -391,6 +141,7 @@ font-size: 9px;
 .image-section{
     margin-top: -150px;
 }
+
 @media only screen and (max-width: 600px) 
 {
    
