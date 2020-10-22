@@ -705,7 +705,7 @@ font-size: 9px;
     }
     
 }
-@media only screen and (min-width: 768px) and (max-width:1023px)
+@media only screen and (min-width: 601px) and (max-width:1023px)
 {
     .tagline-content{
         padding-left: 26%;
@@ -871,7 +871,7 @@ font-size: 9px;
         margin-top: 500px;
     }
 }
-@media only screen and (max-width: 500px) and (min-width: 400px)
+@media only screen and (max-width: 600px) and (min-width: 379px)
 {   
     .ios-meadia{
         font-size: 28px;
@@ -1086,7 +1086,7 @@ font-size: 9px;
         margin-top: 0px;
     }
 }
-@media only screen and (min-width: 375px)  and (max-width:378px)
+@media only screen and (min-width: 371px)  and (max-width:378px)
 {
     .apple-image{
         margin-top: 10px;
