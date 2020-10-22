@@ -871,7 +871,7 @@ font-size: 9px;
         margin-top: 500px;
     }
 }
-@media only screen and (max-width: 415px) and (min-width: 400px)
+@media only screen and (max-width: 500px) and (min-width: 400px)
 {   
     .ios-meadia{
         font-size: 28px;
