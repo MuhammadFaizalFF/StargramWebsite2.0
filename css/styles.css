@@ -507,7 +507,7 @@ font-size: 9px;
     margin-bottom: 100px;
     padding-left:80px ;
 }
-@media only screen and (max-width: 370px) 
+@media only screen and (max-width: 399px) 
 {
    
     #search-section{
@@ -705,7 +705,7 @@ font-size: 9px;
     }
     
 }
-@media only screen and (min-width: 601px) and (max-width:1023px)
+@media only screen and (min-width: 767px) and (max-width:1023px)
 {
     .tagline-content{
         padding-left: 26%;
@@ -812,7 +812,7 @@ font-size: 9px;
         margin-left: 60px;
     }
 }
-@media only screen and (min-width: 1024px) and (max-width:1028px)
+@media only screen and (min-width: 1024px) and (max-width:1170px)
 {
     .tagline-content{
         padding-left: 26%;
@@ -871,7 +871,7 @@ font-size: 9px;
         margin-top: 500px;
     }
 }
-@media only screen and (max-width: 600px) and (min-width: 379px)
+@media only screen and (max-width: 766px) and (min-width: 400px)
 {   
     .ios-meadia{
         font-size: 28px;
@@ -1016,7 +1016,7 @@ font-size: 9px;
     }
     
 }
-@media only screen and (max-width: 320px) 
+@media only screen and (max-width: 357px) 
 {
     .icon-scroll {
         margin-top: 360px;
