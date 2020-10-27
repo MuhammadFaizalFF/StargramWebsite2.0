@@ -1,16 +1,4 @@
-#full-container{
-    background-color: #090909;
-    color: #FFE600;
-    
-}
-#typed-cursor {
-    display: none !important;
-}
-.startTyper{
-    color: #FFE600;
-    display: inline-block;
-    white-space: break-spaces;
-}
+
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i);
@@ -44,8 +32,31 @@
     50% { opacity:0; }
     100% { opacity:1; }
 }
-
-
+#full-container{
+    background-color: #090909;
+    color: #FFE600;
+    overflow: scroll;
+    height: 100vh;
+    scroll-snap-type: mandatory;
+    scroll-snap-type: y mandatory;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+}
+body{
+    overflow: hidden;
+}
+section {
+    scroll-snap-align: start;
+}
+#typed-cursor {
+    display: none !important;
+}
+.startTyper{
+    color: #FFE600;
+    display: inline-block;
+    white-space: break-spaces;
+}
 
 .header-sign{
     background-color:#FFE600 ;
@@ -209,6 +220,7 @@ html {
 }
 .star-on-stargram{
     font-family: monospace;
+    padding-top: 100px;
     margin-left: 97px;
     margin-top: 220px;
     
@@ -288,6 +300,7 @@ html {
     margin-top: 77px;
     height: auto;
     width: 80px;  
+    margin-left: 10px;
 }
 .line-1{
     margin-left: 310px;
@@ -345,16 +358,16 @@ html {
     margin-top: 308px;
     margin-left: 87px;
 }
-.center-of-mobile{
+.center-of-mobile {
     position: absolute;
     margin-top: 60px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    height: 360px;
-    width: 200px;
+    height: 471px;
+    width: 235px;
     overflow: auto;
- }
+}
  .center-of-mobile::-webkit-scrollbar {
     display: none;
 }
@@ -367,9 +380,6 @@ html {
     height: 500px;
     border-radius: 15px !important;
     background-color: rgba(0,0,0,0.4) !important;
-}
-.submit-section{
-    margin-top: 20px;
 }
 .see-all {
     position: absolute;
@@ -444,31 +454,222 @@ html {
         width: auto;
         margin-top: 2px;
 }
-.msg_cotainer{
-margin-top: auto;
-margin-bottom: auto;
-margin-left: 17%;
-border-radius: 9px;
-background-color:  #FFE600;
-color: black !important;
-padding: 13px;
-font-size: 12px;
-font-weight: 700;
-position: relative;
-font-family: 'Roboto';
-}
-.msg_cotainer_send{
-margin-top: auto;
-margin-bottom: auto;
-margin-right: 25%;
-font-size: 12px;
-border-radius: 10px;
-background-color: black;
-border: 1px solid #FFE600;
-padding: 10px;
-position: relative;
-font-family: 'Roboto';
-}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  
+  
+  .marvel-device .screen {
+    text-align: left;
+  }
+  
+  
+  
+  
+  /* Chat */
+  
+  .chat {
+    height: calc(100% - 69px);
+  }
+  
+  .chat-container {
+    height: 100%;
+  }
+  
+  /* User Bar */
+  
+  .user-bar {
+    height: 40px;
+    background: rgb(14, 13, 13);
+    color: #fff;
+    padding: 0 8px;
+    font-size: 24px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .user-bar:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .user-bar div {
+    float: left;
+    transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+  }
+  
+  .user-bar .actions {
+    float: right;
+    margin: 0 0 0 20px;
+  }
+  
+  .user-bar .actions.more {
+    margin: 0 12px 0 32px;
+  }
+  
+  .user-bar .actions.attachment {
+    margin: 0 0 0 30px;
+  }
+  
+  .user-bar .actions.attachment i {
+    display: block;
+    transform: rotate(-45deg);
+  }
+  
+  
+  .user-bar .name {
+    font-size: 14px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    letter-spacing: 0.3px;
+    margin: 3px 0 0 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 140px;
+    padding-left: 80px;
+  }
+  
+  .user-bar .status {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  /* Conversation */
+  
+  .conversation {
+    height: calc(100% - 12px);
+    position: relative;
+    background: black  repeat;
+    z-index: 0;
+  }
+  
+  .conversation ::-webkit-scrollbar {
+    transition: all .5s;
+    width: 5px;
+    height: 1px;
+    z-index: 10;
+  }
+  
+  .conversation ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .conversation ::-webkit-scrollbar-thumb {
+    background: black;
+  }
+  
+  .conversation .conversation-container {
+    height: calc(100% - 68px);
+    box-shadow: inset 0 10px 10px -10px #000000;
+    overflow-x: hidden;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    height: 389px;
+  }
+  
+  .conversation .conversation-container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Messages */
+  
+  .message {
+    color: white;
+    clear: both;
+    line-height: 18px;
+    font-size: 15px;
+    padding: 8px;
+    position: relative;
+    margin: 8px 0;
+    max-width: 85%;
+    word-wrap: break-word;
+    z-index: -1;
+  }
+  
+  .message:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  .metadata {
+    display: inline-block;
+    float: right;
+    padding: 0 0 0 7px;
+    position: relative;
+    bottom: -4px;
+  }
+  
+  .metadata .time {
+    color: white;
+    font-size: 11px;
+    display: inline-block;
+  }
+  
+  
+  .message:first-child {
+    margin: 16px 0 8px;
+  }
+  
+  .message.received {
+    background: #455A64;
+    border-radius: 0px 5px 5px 5px;
+    float: left;
+  }
+  
+  .message.received .metadata {
+    padding: 0 0 0 16px;
+  }
+  
+  .message.received:after {
+    border-width: 0px 10px 10px 0;
+    border-color: transparent #455A64 transparent transparent;
+    top: 0;
+    left: -10px;
+  }
+  
+  .message.sent {
+    background: #075E54;
+    border-radius: 5px 0px 5px 5px;
+    float: right;
+  }
+  
+  .message.sent:after {
+    border-width: 0px 0 10px 10px;
+    border-color: transparent transparent transparent #075E54;
+    top: 0;
+    right: -10px;
+  }
+  
+ 
+ 
 .what-is{
     margin-left: 35px;
 }
@@ -484,30 +685,7 @@ font-family: 'Roboto';
     margin-top: 80px;
     padding-left: 140px;
 }
-.msg_cotainer:after{
-	content: ' ';
-	position: absolute;
-    left: 102px;
-	top: 0px;
-	border: 19px solid;
-    border-color:  #FFE600  transparent transparent;
-    
-}
-.msg_time{
-position: absolute;
-left: 0;
-bottom: -15px;
-color: rgba(255,255,255,0.5);
-font-size: 9px;
-font-family: sans-serif;
-}
-.msg_time_send{
-position: absolute;
-right:0;
-bottom: -15px;
-color: rgba(255,255,255,0.5);
-font-size: 9px;
-}
+
 .apple-image{
     margin-left: 445px ;
     margin-top: 25px ;
@@ -518,19 +696,42 @@ font-size: 9px;
 }
 .bottom-logo-meadia{
     margin-bottom: 100px;
+  
     padding-left:80px ;
 }
+.sign-top2{
+    padding-top: 1px;
+}
+.sign-top{
+    padding-top: 5px;
+}
+
+  
 @media only screen and (max-width: 399px) 
 {
-   
+    .mobile-image{
+        height: 550px;
+    }
+    .center-of-mobile{
+        width: 260px;
+        margin-top: 42px;
+    }
+    .conversation .conversation-container {
+        height: 430px;
+    }
     #search-section{
         margin-top: -50px;
     }
     .icon-scroll{
-        
+        margin-bottom: 180px;
         margin-top: 380px;
     }
-    
+    .sign-top2{
+        padding-top: 10px;
+    }
+    .sign-top{
+        padding-top: 100px;
+    }
     .cards{
        
         border: none !important;
@@ -559,7 +760,7 @@ font-size: 9px;
     .dashed{
         display: block;
         margin-left: 50%;
-        margin-top: 50px;
+        margin-top: 0px;
     }
     .signUp-section{
         text-align: center;
@@ -573,8 +774,8 @@ font-size: 9px;
         text-align: center;
         padding-top: 10px;
         width: 364px;
-        margin-left: -21px;
-        
+        margin-left: -2%;
+        margin-bottom: 130px;
         
     }
     .sign-up{
@@ -593,7 +794,7 @@ font-size: 9px;
         white-space: pre;
     }
     .download-ios-meadia{
-        margin-top: 55px;
+        margin-top: 240px;
        padding: 20px;
        font-size:32px ;
     }
@@ -609,27 +810,32 @@ font-size: 9px;
         padding-right: 15%;
     }
     .record-send-content{
-        margin-top: -30px;
+        height: 100px;
+        margin-top: -90px;
         margin-left: -10px;
     }
     .search-your-content{
-        height: 150px;
-        margin-top: 120px;
+        height: 100px;
+        margin-top: 92px;
         margin-left: 25px;
     }
     .reply{
-        margin-top: 50px;
-        margin-left: 0px;
+        height: 100px;
+        margin-top: 0px;
+        margin-left: 25px;
     }
     .description-reply {
         margin-left: 5px;
+        margin-top: -20px;
     }
     
     .description-search {
         margin-left: -10px;
+        margin-top: -20px;
     }
     .description {
         margin-left: -5px;
+        margin-top: -20px;
     }
 
     .image-section{
@@ -651,7 +857,7 @@ font-size: 9px;
         margin-left: -119px;
     }
     .img-style{
-        height: 165px;
+        height: 155px;
     }
     .tagline-content{
         font-size: 26px;
@@ -798,6 +1004,13 @@ font-size: 9px;
     }
     .signUp-section{
         margin-left: 20px;
+        padding-top: 0px;
+    }
+    .center-of-mobile{
+        margin-top: 110px;
+    }
+    .bottom {
+        margin-top: 270px;
     }
     .submit-button {
         margin-left: -150px;
@@ -841,8 +1054,15 @@ font-size: 9px;
         width: 5%;
         margin-left: 60px ;
     }
-    .star-on-stargram{
+    .star-on-stargram {
         margin-left: 60px;
+        padding-top: 228px;
+    }
+    .sign-top2 {
+        padding-top: 213px;
+    }
+    .sign-top {
+        padding-top: 300px;
     }
 }
 @media only screen and (min-width: 1024px) and (max-width:1170px)
@@ -868,9 +1088,7 @@ font-size: 9px;
     .sign-button-2{
         margin-left: 130px;
     }
-    #submit-section{
-        margin-top: 100px;
-    }
+    
     .google-size{
         height: 50PX;
         width: auto;
@@ -921,11 +1139,22 @@ font-size: 9px;
         content: "\a";
         white-space: pre;
     }
+    .mobile-image{
+        height: 600px;
+    }
+    .center-of-mobile{
+        width: 280px;
+        margin-top: 55px;
+        height: 550px;
+    }
+    .conversation .conversation-container {
+        height: 480px;
+    }
     .see{
         line-height: 0px;
     }
     .download-ios-meadia{
-        margin-top: 110px;
+        margin-top: 200px;
        padding: 20px;
        font-size:40px ;
     }
@@ -949,27 +1178,35 @@ font-size: 9px;
     .img-style{
         height: 165px;
     }
-    .search{
-        margin-left: 35px;
-        margin-top: 195px;
-    }
-    .description-search{
-        margin-left: 10px;
-    }
     .record-send-content{
-        margin-left: 0px;
-        margin-top: -10px;
+        height: 100px;
+        margin-top: -90px;
+        margin-left: -10px;
     }
-    .description{
-        margin-left: 10px;
+    .search-your-content{
+        height: 100px;
+        margin-top: 92px;
+        margin-left: 25px;
     }
     .reply{
-        margin-top: 70px;
-        margin-left: 10px;
+        height: 100px;
+        margin-top: 0px;
+        margin-left: 25px;
     }
-    .description-reply{
-        margin-left: 10px;
+    .description-reply {
+        margin-left: 5px;
+        margin-top: -20px;
     }
+    
+    .description-search {
+        margin-left: -10px;
+        margin-top: -20px;
+    }
+    .description {
+        margin-left: -5px;
+        margin-top: -20px;
+    }
+
     .star-on-stargram{
         margin-left: 33px;
     }
@@ -1013,10 +1250,12 @@ font-size: 9px;
     }
     .signUp-section{
         margin-left: 10%;
+        margin-top: 23%;
     }
     .signUp-form{
         margin-left: -3%;
         width: 400px;
+        margin-bottom: 110px;
     }
     .submit-button{
         margin-left: 0px;
@@ -1066,6 +1305,10 @@ font-size: 9px;
     .icon-scroll{
         margin-top: 400px;
         margin-left: 50%;
+        margin-bottom: 120px;
+    }
+    .sign-top{
+        margin-top: 30px;
     }
     
 }
@@ -1076,16 +1319,32 @@ font-size: 9px;
     }
     .signUp-form{
         width: 326px;
+        margin-left: -6%;
     }
     .submit-button{
         width: 230px;
     }
-    
+    .search-your-content {
+        height: 95px;
+        margin-top: 68px;
+    }
+    .record-send-content
+    {
+        height: 95px;
+        margin-top: -124px;
+    }
+    .description {
+        margin-left: -5px;
+        margin-top: -40px;
+    }
     .image-6{
         margin-left: -3px;
     }
     .image-10{
         margin-left: 0px;
+    }
+    .star-on-stargram {
+        padding-top: 66px;
     }
     .google-size{
         height: 37PX;
@@ -1128,6 +1387,20 @@ font-size: 9px;
     }
     .signUp-section{
         margin: -6px ;
+        padding-top: 50px;
+    }
+    .mobile-image {
+        height: 479px;
+    }
+    .center-of-mobile {
+        width: 227px;
+        margin-top: 75px;
+    }
+    .conversation .conversation-container {
+        height: 365px;
+    }
+    .bottom{
+        margin-top: 20px;
     }
     .connect{
         margin-top: 90px;
@@ -1166,9 +1439,12 @@ font-size: 9px;
         margin-left: 25%;
     }
     .download-ios-meadia{
-        margin-top: 110px;
+        margin-top: 145px;
         padding: 20px;
         font-size:40px ;
+    }
+    .bottom {
+        margin-top: 130px;
     }
     .line-1{
         display: none;
@@ -1228,28 +1504,34 @@ font-size: 9px;
         margin-left: -15px;
     }
     .record-send-content{
-        margin-top: -30px;
+        height: 100px;
+        margin-top: -90px;
         margin-left: -10px;
     }
     .search-your-content{
-        height: 180px;
-        margin-top: 190px;
+        height: 100px;
+        margin-top: 92px;
         margin-left: 25px;
     }
     .reply{
-        margin-top: 50px;
-        margin-left: 0px;
+        height: 100px;
+        margin-top: 0px;
+        margin-left: 25px;
     }
     .description-reply {
         margin-left: 5px;
+        margin-top: -20px;
     }
     
     .description-search {
         margin-left: -10px;
+        margin-top: -20px;
     }
     .description {
         margin-left: -5px;
+        margin-top: -20px;
     }
+
     .image-5{
         display: none;
     }
@@ -1272,22 +1554,24 @@ font-size: 9px;
         margin-left: 30px !important;
     }
     .signUp-section{
-        margin-left: 8%;
+        margin-left: 3%;
+        padding-top: 54px;
     }
     .signUp-form{
         margin-left: -5%;
         width: 377px;
+        margin-bottom: 158px;
     }
     .submit-button{
         margin-left: 0px;
         width: 270px;
     }
     .bottom-stargram{
-        margin-left: 8px;
+        margin-left: 40px;
         margin-top: -53px;
     }
     .logo-bottom {
-        margin-left: -56px;
+        margin-left: -25px;
     }
     .connect{
         margin-top: 90px;
@@ -1302,6 +1586,7 @@ font-size: 9px;
     }
     .icon-scroll{
         margin-top: 370px;
+        margin-bottom: 219px;
     }
     .img-style{
         height: 165px;
