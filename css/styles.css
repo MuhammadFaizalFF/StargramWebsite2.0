@@ -149,7 +149,7 @@ html {
     
 }
 .icon-scroll{
-    margin-left: 49%;
+    margin-left: 48%;
     margin-top: 260px;
     margin-bottom: 40px;
     margin-right: 47%;
@@ -817,7 +817,7 @@ html {
     .search-your-content{
         height: 100px;
         margin-top: 92px;
-        margin-left: 25px;
+        margin-left: 45px;
     }
     .reply{
         height: 100px;
@@ -943,6 +943,9 @@ html {
     .header-stargram{
         display: none !important;
     }
+    .download-ios{
+        margin-top: 222px;
+    }
     .record-section{
         margin-top: 155px;
     }
@@ -1007,10 +1010,10 @@ html {
         padding-top: 0px;
     }
     .center-of-mobile{
-        margin-top: 110px;
+        margin-top: 165px;
     }
     .bottom {
-        margin-top: 270px;
+        margin-top: 335px;
     }
     .submit-button {
         margin-left: -150px;
@@ -1073,6 +1076,12 @@ html {
     }
     .image-4{
         display: none;
+    }
+    .download-ios{
+        margin-top: 175px;
+    }
+    .image-section {
+        margin-bottom: 50px;
     }
     .line-1{
         margin-left: 250px;
@@ -1186,7 +1195,7 @@ html {
     .search-your-content{
         height: 100px;
         margin-top: 92px;
-        margin-left: 25px;
+        margin-left: 40px;
     }
     .reply{
         height: 100px;
@@ -1277,11 +1286,11 @@ html {
     .google-size{
         height: 40px;
         width: auto;
-        margin-left: 34%;
+        margin-left: 37%;
     }
     .apple-size{
         height: 79%;
-        margin-left: 25%;
+        margin-left: 32%;
     }
     
     .bottom-stargram{
@@ -1304,7 +1313,7 @@ html {
     }
     .icon-scroll{
         margin-top: 400px;
-        margin-left: 50%;
+        margin-left: 48%;
         margin-bottom: 120px;
     }
     .sign-top{
@@ -1432,7 +1441,7 @@ html {
     .google-size{
         height: 40px;
         width: auto;
-        margin-left: 34%;
+        margin-left: 42%;
     }
     .apple-size{
         height: 79%;
@@ -1511,7 +1520,7 @@ html {
     .search-your-content{
         height: 100px;
         margin-top: 92px;
-        margin-left: 25px;
+        margin-left: 40px;
     }
     .reply{
         height: 100px;
@@ -1585,6 +1594,7 @@ html {
         padding-bottom: 0px;
     }
     .icon-scroll{
+        margin-left: 48%;
         margin-top: 370px;
         margin-bottom: 219px;
     }
